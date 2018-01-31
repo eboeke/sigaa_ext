@@ -1,5 +1,5 @@
 function wrapper_d2(subjectcode,eyetrack)
-%runs day 1 of sigaa ext experiment.
+%runs day 2 of sigaa ext experiment.
 %args:
 %   subjectcode, a string in the format <subject number>_<task version>_<condition>
 %   eyetrack, a bool indicating whether eyetracking data should be collected.
