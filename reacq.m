@@ -336,8 +336,9 @@ try
          reacq.checkcorrect = 1;
      end
      save(results_mat_file, '-struct', 'reacq'); %save mat file
-     Eyelink('StopRecording');
-
+     if eyetrack
+        Eyelink('StopRecording');
+     end
      inst_text(window,end_text,0,0,quit_key,expkey);
 catch
     % Clear the screen.
